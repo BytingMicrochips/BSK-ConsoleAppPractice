@@ -3,9 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSK-coffee-calculator-consoleApp", "consoleAppTesting-1\BSK-coffee-calculator-consoleApp.csproj", "{32D586BD-ACFF-4D68-995C-DCD62B200608}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BSK-coffee-calculator-consoleApp", "consoleAppTesting-1\BSK-coffee-calculator-consoleApp.csproj", "{32D586BD-ACFF-4D68-995C-DCD62B200608}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSK-coffee-menu-consoleApp", "BSK-coffee-menu-consoleApp\BSK-coffee-menu-consoleApp.csproj", "{FD8A8840-50C0-4827-9CA2-100CECC16BA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BSK-coffee-menu-consoleApp", "BSK-coffee-menu-consoleApp\BSK-coffee-menu-consoleApp.csproj", "{FD8A8840-50C0-4827-9CA2-100CECC16BA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BSK-coffee-OOP-consoleApp", "BSK-coffee-OOP-consoleApp\BSK-coffee-OOP-consoleApp.csproj", "{7094984E-14A4-41BD-9DEB-BC23230EB21C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{30C4530B-79BE-41C6-B56F-563BBB33AF75}"
+	ProjectSection(SolutionItems) = preProject
+		Classes fundamentals.md = Classes fundamentals.md
+		Types and inheritance.md = Types and inheritance.md
+		Namespace and Scope.md = Namespace and Scope.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +30,10 @@ Global
 		{FD8A8840-50C0-4827-9CA2-100CECC16BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD8A8840-50C0-4827-9CA2-100CECC16BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD8A8840-50C0-4827-9CA2-100CECC16BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7094984E-14A4-41BD-9DEB-BC23230EB21C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7094984E-14A4-41BD-9DEB-BC23230EB21C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7094984E-14A4-41BD-9DEB-BC23230EB21C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7094984E-14A4-41BD-9DEB-BC23230EB21C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
