@@ -27,6 +27,10 @@ public static class CoffeeSelector
         Saturday = 6,
         Sunday = 7,
     }
+    /// <summary>
+    /// This method reads user input of days (including when abbreviated) and returns a country
+    /// </summary>
+    /// <param name="country"></param>
     public static void ToCountrySwitch(string country)
     {
         var res = "";
